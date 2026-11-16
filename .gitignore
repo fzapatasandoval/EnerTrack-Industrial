@@ -1,0 +1,67 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archivos temporales y del sistema
+.DS_Store
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+.ipynb_checkpoints/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+credentials.json
+*credentials*
+*secret*
+*.pem
+*.key
+.streamlit/secrets.toml
+client_secret*.json
+google-services.json
+*-service-account*.json
+
+# Datasets
+data/**
+!data/.gitkeep
+!data/maintenance_reports/
+!data/maintenance_reports/**
+!data/consumo/
+!data/consumo/**
+!data/neu_surface_defects/
+!data/neu_surface_defects/crazing/
+!data/neu_surface_defects/crazing/crazing_110.jpg
+
+# Modelos pesados
+models/**
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.bin
+*.pkl
+*.joblib

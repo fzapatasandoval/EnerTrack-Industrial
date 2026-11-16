@@ -1,0 +1,977 @@
+{
+  "corpus_id": "enertrack-mantenimiento-sintetico-v1",
+  "caracter": "simulado",
+  "fuente": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+  "reportes": 48,
+  "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dispositivo": "mps",
+  "fine_tuning": false,
+  "definicion_recall_at_3": "reportes relevantes recuperados en el top 3, dividido por los relevantes de la consulta",
+  "definicion_mrr": "promedio de 1/puesto del primer relevante en el ranking completo",
+  "resumen": [
+    {
+      "metodo": "semantico",
+      "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "consultas": 16,
+      "recall_at_3": 0.78125,
+      "mrr": 0.8854166666666666,
+      "dispositivo": "mps",
+      "fine_tuning": false
+    },
+    {
+      "metodo": "palabras",
+      "modelo": "",
+      "consultas": 16,
+      "recall_at_3": 0.9375,
+      "mrr": 0.96875,
+      "dispositivo": "cpu",
+      "fine_tuning": false
+    }
+  ],
+  "consultas": [
+    {
+      "consulta_id": "Q01",
+      "consulta": "¿Qué pasó con el recalentamiento del motor de la extrusora de lámina?",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-001",
+        "SIM-002"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 0.3333333333333333,
+      "top3": [
+        {
+          "id": "SIM-022",
+          "puntaje": 0.677040696144104,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-036",
+          "puntaje": 0.6408495306968689,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-001",
+          "puntaje": 0.6372635364532471,
+          "es_relevante": true
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-002"
+      ]
+    },
+    {
+      "consulta_id": "Q01",
+      "consulta": "¿Qué pasó con el recalentamiento del motor de la extrusora de lámina?",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-001",
+        "SIM-002"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-001",
+          "puntaje": 0.3585960300241366,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-002",
+          "puntaje": 0.2878641426513142,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-048",
+          "puntaje": 0.21983616668080191,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q02",
+      "consulta": "Busco el informe de vibración alta en la sopladora S-3",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-004",
+        "SIM-005"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-004",
+          "puntaje": 0.6810941696166992,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-005",
+          "puntaje": 0.6527453660964966,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-045",
+          "puntaje": 0.5617650747299194,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q02",
+      "consulta": "Busco el informe de vibración alta en la sopladora S-3",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-004",
+        "SIM-005"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-005",
+          "puntaje": 0.3195133267956458,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-004",
+          "puntaje": 0.2858590052555863,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-019",
+          "puntaje": 0.2852362352980299,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q03",
+      "consulta": "¿Por qué aumentó el consumo eléctrico del compresor de aire?",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-007",
+        "SIM-008"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-008",
+          "puntaje": 0.6530546545982361,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-033",
+          "puntaje": 0.5638707280158997,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-040",
+          "puntaje": 0.5333795547485352,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-007"
+      ]
+    },
+    {
+      "consulta_id": "Q03",
+      "consulta": "¿Por qué aumentó el consumo eléctrico del compresor de aire?",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-007",
+        "SIM-008"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-008",
+          "puntaje": 0.3262773629463518,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-040",
+          "puntaje": 0.2848449337718883,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-033",
+          "puntaje": 0.2709418603204708,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-007"
+      ]
+    },
+    {
+      "consulta_id": "Q04",
+      "consulta": "Necesito el mantenimiento preventivo del husillo de extrusión",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-010"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 0.5,
+      "top3": [
+        {
+          "id": "SIM-011",
+          "puntaje": 0.5214166641235352,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-010",
+          "puntaje": 0.508224368095398,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-036",
+          "puntaje": 0.47053995728492737,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q04",
+      "consulta": "Necesito el mantenimiento preventivo del husillo de extrusión",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-010"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-010",
+          "puntaje": 0.3426847539160305,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-011",
+          "puntaje": 0.3164593774880319,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-033",
+          "puntaje": 0.21424230421234772,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q05",
+      "consulta": "El aceite hidráulico de la prensa de tapas se calentó",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-013",
+        "SIM-014"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-013",
+          "puntaje": 0.7670127153396606,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-014",
+          "puntaje": 0.7287580370903015,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-029",
+          "puntaje": 0.62823086977005,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q05",
+      "consulta": "El aceite hidráulico de la prensa de tapas se calentó",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-013",
+        "SIM-014"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-014",
+          "puntaje": 0.66080362211479,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-013",
+          "puntaje": 0.5751136976151319,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-029",
+          "puntaje": 0.14710731737690516,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q06",
+      "consulta": "Falla de rodamiento en el motor de la extrusora E-1",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-015",
+        "SIM-016"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-015",
+          "puntaje": 0.7553797364234924,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-016",
+          "puntaje": 0.7376269102096558,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-044",
+          "puntaje": 0.6583197712898254,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q06",
+      "consulta": "Falla de rodamiento en el motor de la extrusora E-1",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-015",
+        "SIM-016"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-015",
+          "puntaje": 0.44973391033347965,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-016",
+          "puntaje": 0.4332459102414361,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-044",
+          "puntaje": 0.21215434501216374,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q07",
+      "consulta": "Pico de demanda eléctrica de madrugada por los molinos",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-017",
+        "SIM-018"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-017",
+          "puntaje": 0.6350463628768921,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-047",
+          "puntaje": 0.5728760361671448,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-007",
+          "puntaje": 0.4423263370990753,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-018"
+      ]
+    },
+    {
+      "consulta_id": "Q07",
+      "consulta": "Pico de demanda eléctrica de madrugada por los molinos",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-017",
+        "SIM-018"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-017",
+          "puntaje": 0.4263378641740403,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-018",
+          "puntaje": 0.35586136907265814,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-047",
+          "puntaje": 0.22826874942475564,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q08",
+      "consulta": "Desbalance del ventilador de la torre de enfriamiento",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-019",
+        "SIM-020"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-019",
+          "puntaje": 0.8031721115112305,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-020",
+          "puntaje": 0.7488323450088501,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-040",
+          "puntaje": 0.5955607891082764,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q08",
+      "consulta": "Desbalance del ventilador de la torre de enfriamiento",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-019",
+        "SIM-020"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-019",
+          "puntaje": 0.5565772042973237,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-020",
+          "puntaje": 0.46683230663860686,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-005",
+          "puntaje": 0.0848561781751455,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q09",
+      "consulta": "Ruta de engrase de los motores de mezclado",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-021",
+        "SIM-022"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-022",
+          "puntaje": 0.6414912939071655,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-015",
+          "puntaje": 0.6018440127372742,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-044",
+          "puntaje": 0.544794499874115,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-021"
+      ]
+    },
+    {
+      "consulta_id": "Q09",
+      "consulta": "Ruta de engrase de los motores de mezclado",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-021",
+        "SIM-022"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-022",
+          "puntaje": 0.3102440853584536,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-038",
+          "puntaje": 0.22163275848698433,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-021",
+          "puntaje": 0.21318549528834696,
+          "es_relevante": true
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q10",
+      "consulta": "Alarma de temperatura del molde de botellas de litro y medio",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-023",
+        "SIM-024"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-023",
+          "puntaje": 0.8390564322471619,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-025",
+          "puntaje": 0.7432467937469482,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-026",
+          "puntaje": 0.7176868915557861,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-024"
+      ]
+    },
+    {
+      "consulta_id": "Q10",
+      "consulta": "Alarma de temperatura del molde de botellas de litro y medio",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-023",
+        "SIM-024"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 0.5,
+      "top3": [
+        {
+          "id": "SIM-025",
+          "puntaje": 0.42461847062904495,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-023",
+          "puntaje": 0.38713631425818024,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-046",
+          "puntaje": 0.21746584442537967,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-024"
+      ]
+    },
+    {
+      "consulta_id": "Q11",
+      "consulta": "Botellas deformadas por el agua de proceso caliente",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-025",
+        "SIM-026"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-026",
+          "puntaje": 0.7203706502914429,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-025",
+          "puntaje": 0.7063935399055481,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-023",
+          "puntaje": 0.6309714913368225,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q11",
+      "consulta": "Botellas deformadas por el agua de proceso caliente",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-025",
+        "SIM-026"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-026",
+          "puntaje": 0.37458106351880033,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-025",
+          "puntaje": 0.2948804175601632,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-027",
+          "puntaje": 0.171698812634475,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q12",
+      "consulta": "Punto caliente en el tablero de inyección detectado por termografía",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-027",
+        "SIM-028"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-028",
+          "puntaje": 0.5995765924453735,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-023",
+          "puntaje": 0.5768845677375793,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-003",
+          "puntaje": 0.5215462446212769,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-027"
+      ]
+    },
+    {
+      "consulta_id": "Q12",
+      "consulta": "Punto caliente en el tablero de inyección detectado por termografía",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-027",
+        "SIM-028"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-027",
+          "puntaje": 0.5893652121154318,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-028",
+          "puntaje": 0.323713938716872,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-001",
+          "puntaje": 0.0,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q13",
+      "consulta": "Partículas metálicas en el aceite del reductor de la extrusora E-4",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-029",
+        "SIM-030"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-030",
+          "puntaje": 0.7688479423522949,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-029",
+          "puntaje": 0.7639914155006409,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-013",
+          "puntaje": 0.5630283355712891,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q13",
+      "consulta": "Partículas metálicas en el aceite del reductor de la extrusora E-4",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-029",
+        "SIM-030"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-030",
+          "puntaje": 0.4624678752234371,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-029",
+          "puntaje": 0.3740282987181321,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-042",
+          "puntaje": 0.30992042304737005,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q14",
+      "consulta": "Consumo excesivo de los secadores de PET por la regeneración",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-031",
+        "SIM-032"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-031",
+          "puntaje": 0.780127763748169,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-032",
+          "puntaje": 0.5920957326889038,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-010",
+          "puntaje": 0.3241174817085266,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q14",
+      "consulta": "Consumo excesivo de los secadores de PET por la regeneración",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-031",
+        "SIM-032"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-032",
+          "puntaje": 0.4740980372214034,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-031",
+          "puntaje": 0.3799435022989574,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-047",
+          "puntaje": 0.09717535198158901,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q15",
+      "consulta": "Sobrecorriente en el molino de scrap",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-035",
+        "SIM-036"
+      ],
+      "recall_at_3": 0.5,
+      "reciprocal_rank": 0.3333333333333333,
+      "top3": [
+        {
+          "id": "SIM-017",
+          "puntaje": 0.4597053527832031,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-018",
+          "puntaje": 0.42916855216026306,
+          "es_relevante": false
+        },
+        {
+          "id": "SIM-035",
+          "puntaje": 0.4214009642601013,
+          "es_relevante": true
+        }
+      ],
+      "relevantes_ausentes_en_top3": [
+        "SIM-036"
+      ]
+    },
+    {
+      "consulta_id": "Q15",
+      "consulta": "Sobrecorriente en el molino de scrap",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-035",
+        "SIM-036"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-035",
+          "puntaje": 0.42522239791874217,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-036",
+          "puntaje": 0.2451445235331667,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-018",
+          "puntaje": 0.1161483430512918,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q16",
+      "consulta": "El chiller gasta de más porque el condensador está sucio",
+      "metodo": "semantico",
+      "relevantes": [
+        "SIM-040",
+        "SIM-041"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-040",
+          "puntaje": 0.7017087936401367,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-041",
+          "puntaje": 0.5932388305664062,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-019",
+          "puntaje": 0.5666744709014893,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    },
+    {
+      "consulta_id": "Q16",
+      "consulta": "El chiller gasta de más porque el condensador está sucio",
+      "metodo": "palabras",
+      "relevantes": [
+        "SIM-040",
+        "SIM-041"
+      ],
+      "recall_at_3": 1.0,
+      "reciprocal_rank": 1.0,
+      "top3": [
+        {
+          "id": "SIM-040",
+          "puntaje": 0.3271059661532126,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-041",
+          "puntaje": 0.2200542044642088,
+          "es_relevante": true
+        },
+        {
+          "id": "SIM-006",
+          "puntaje": 0.13260801941390943,
+          "es_relevante": false
+        }
+      ],
+      "relevantes_ausentes_en_top3": []
+    }
+  ]
+}

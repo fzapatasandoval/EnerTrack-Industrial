@@ -1,0 +1,24 @@
+[
+  {
+    "model": "mobilenet_v3_small",
+    "weights_enum": "MobileNet_V3_Small_Weights.IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+    "check_hash": true,
+    "state_dict_tensors": 244,
+    "cached_file": "/Users/felipezapata/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth",
+    "cached_file_exists": true,
+    "cached_bytes": 10306551,
+    "source_categories": 1000
+  },
+  {
+    "model": "resnet18",
+    "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "check_hash": true,
+    "state_dict_tensors": 102,
+    "cached_file": "/Users/felipezapata/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth",
+    "cached_file_exists": true,
+    "cached_bytes": 46830571,
+    "source_categories": 1000
+  }
+]

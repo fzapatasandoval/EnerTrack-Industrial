@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "serie_temporal": {
+    "ok": true,
+    "archivo": "/Users/felipezapata/Desktop/EnerTrack-Examen-Final/data/consumo/historico_90_dias.csv",
+    "caracter": "simulado",
+    "fuente": "Serie académica Historico_90_dias. No es una medición de una planta real.",
+    "fecha_ultima": "2026-11-08",
+    "consumo_real_ultimo_kwh": 946.0,
+    "n_dias": 90,
+    "parametros_holt_winters_congelados": {
+      "alpha": 0.1,
+      "beta": 0.1,
+      "gamma": 0.3,
+      "estacionalidad_dias": 7,
+      "nota": "Parámetros de la evaluación anterior. No se volvieron a elegir con este archivo."
+    },
+    "holt_winters": {
+      "pronostico_siguiente_dia_kwh": 2326.2776889267607,
+      "consumo_esperado_kwh": 925.0690703562811,
+      "desviacion_pct": 2.2626342523437213,
+      "umbral_revision_pct": 25.0,
+      "revisar": false
+    },
+    "lstm": {
+      "pronostico_siguiente_dia_kwh": 2004.3501493879999,
+      "ventana_dias": 14,
+      "consumo_esperado_kwh": 2026.2949510052838,
+      "desviacion_pct": -53.3138055972221,
+      "umbral_revision_pct": 25.0,
+      "revisar": true
+    },
+    "evaluacion_historica": {
+      "ok": true,
+      "alcance": "Evaluación histórica ya verificada. No es una nueva medición de esta consulta.",
+      "periodo": {
+        "inicio": "2026-10-19",
+        "fin": "2026-11-08",
+        "dias": 21
+      },
+      "archivo": "results/forecast_comparison.csv",
+      "modelos": [
+        {
+          "modelo": "holt_winters",
+          "mae": 60.156195701677404,
+          "rmse": 73.13367417991229,
+          "inferencia_ms_por_pronostico": 0.0009345239959657192
+        },
+        {
+          "modelo": "lstm",
+          "mae": 444.08592587425596,
+          "rmse": 533.0975090039148,
+          "inferencia_ms_por_pronostico": 1.145702382061808
+        },
+        {
+          "modelo": "ingenuo",
+          "mae": 437.6666666666667,
+          "rmse": 629.5928011326807,
+          "inferencia_ms_por_pronostico": 5.95242627674625e-05
+        }
+      ]
+    },
+    "tiempo_ms": 648.9035419654101
+  },
+  "imagenes": {
+    "ok": true,
+    "archivo": "/Users/felipezapata/Desktop/EnerTrack-Examen-Final/data/neu_surface_defects/crazing/crazing_110.jpg",
+    "modelo": "mobilenet_v3_small",
+    "clase_predicha": "crazing",
+    "confianza": 0.9139204621315002,
+    "top_3_clases": [
+      {
+        "clase": "crazing",
+        "confianza": 0.9139204621315002
+      },
+      {
+        "clase": "rolled-in_scale",
+        "confianza": 0.06295444816350937
+      },
+      {
+        "clase": "pitted_surface",
+        "confianza": 0.011373592540621758
+      }
+    ],
+    "origen_dataset": "NEU Surface Defect Database, Kechen Song y Yunhui Yan, Northeastern University. Copia pública de Kaggle kaustubhdikshit/neu-surface-defect-database.",
+    "advertencia_clases": "Prototipo académico. Todas las clases son tipos de defecto superficial; no existe una clase normal. Estas imágenes no provienen de la planta ficticia EnerTrack y el resultado no sustituye una inspección industrial.",
+    "evaluacion_historica": {
+      "ok": true,
+      "alcance": "Evaluación histórica ya verificada. No es una nueva medición de esta consulta. Corresponde a las 270 imágenes de prueba, no a la imagen enviada ahora.",
+      "archivo": "results/model_comparison.csv",
+      "modelos": [
+        {
+          "modelo": "estadisticos_textura_logreg",
+          "accuracy": 0.9777777777777777,
+          "macro_f1": 0.9776805736325976,
+          "imagenes_prueba": 270
+        },
+        {
+          "modelo": "mobilenet_v3_small",
+          "accuracy": 0.9925925925925926,
+          "macro_f1": 0.9925889328063242,
+          "imagenes_prueba": 270
+        },
+        {
+          "modelo": "resnet18",
+          "accuracy": 0.9703703703703703,
+          "macro_f1": 0.9703239261506601,
+          "imagenes_prueba": 270
+        }
+      ]
+    },
+    "tiempo_ms": 332.0784170064144
+  },
+  "nlp": {
+    "ok": true,
+    "consulta": "¿Por qué aumentó el consumo eléctrico del compresor de aire?",
+    "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dispositivo": "mps",
+    "caracter_corpus": "simulado",
+    "fuente_corpus": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+    "documentos": [
+      {
+        "id": "SIM-008",
+        "texto": "Se encontró una fuga en el manifold de aire que alimenta la sopladora. Esa pérdida explica el gasto eléctrico elevado del compresor C-1. Al cerrar la fuga, el compresor volvió a ciclar con descargas normales.",
+        "puntaje": 0.6530546545982361,
+        "tipo_puntaje": "similitud_coseno",
+        "fuente": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+        "caracter": "simulado",
+        "cita": "SIM-008"
+      },
+      {
+        "id": "SIM-033",
+        "texto": "Mantenimiento preventivo trimestral del compresor C-2. Se cambiaron los filtros de aire y de aceite y se revisaron las válvulas de aspiración. El consumo del turno no estaba fuera de línea base.",
+        "puntaje": 0.5638707280158997,
+        "tipo_puntaje": "similitud_coseno",
+        "fuente": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+        "caracter": "simulado",
+        "cita": "SIM-033"
+      },
+      {
+        "id": "SIM-040",
+        "texto": "El chiller de agua helada mostró un consumo de 960 kWh por día. El condensador estaba sucio y la presión de descarga era alta. No es el compresor de aire de la sopladora.",
+        "puntaje": 0.5333795547485352,
+        "tipo_puntaje": "similitud_coseno",
+        "fuente": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+        "caracter": "simulado",
+        "cita": "SIM-040"
+      }
+    ],
+    "evaluacion_historica": {
+      "ok": true,
+      "alcance": "Evaluación histórica ya verificada. No es una nueva medición de esta consulta. Compara MiniLM y TF-IDF en las 16 consultas fijadas de antemano.",
+      "archivo": "results/maintenance_search_metrics.csv",
+      "modelos": [
+        {
+          "metodo": "semantico",
+          "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "consultas": 16,
+          "recall_at_3": 0.78125,
+          "mrr": 0.8854166666666666
+        },
+        {
+          "metodo": "palabras",
+          "modelo": null,
+          "consultas": 16,
+          "recall_at_3": 0.9375,
+          "mrr": 0.96875
+        }
+      ]
+    },
+    "tiempo_ms": 5323.468124959618
+  },
+  "fuentes_y_limitaciones": {
+    "consumos": "Sintéticos. Pertenecen a la simulación académica Historico_90_dias.",
+    "reportes": "Sintéticos. No son órdenes reales de una empresa.",
+    "imagenes": "NEU Surface Defect Database, pública y real, de Kechen Song y Yunhui Yan.",
+    "relacion_entre_fuentes": "Las tres fuentes no describen un mismo evento industrial ni una misma falla.",
+    "gemini": "Este script no llama a Gemini. La redacción posterior sigue en n8n.",
+    "clases_de_imagen": "Las seis clases del modelo son defectos. No existe clase normal."
+  },
+  "tiempos_ms": {
+    "serie_temporal": 648.9035419654101,
+    "imagenes": 332.0784170064144,
+    "nlp": 5323.468124959618,
+    "total": 6304.450083931442
+  },
+  "errores": []
+}

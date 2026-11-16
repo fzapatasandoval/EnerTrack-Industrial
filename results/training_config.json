@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "device": "mps",
+  "max_epochs": 8,
+  "early_stopping_patience": 2,
+  "selection_metric": "val_macro_f1",
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "frozen_backbone": true,
+  "train_augmentations": [
+    "RandomHorizontalFlip p=0.5",
+    "RandomRotation degrees=10"
+  ],
+  "eval_transform": "Resize 256, CenterCrop 224, ImageNet normalize",
+  "baseline_C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "test_used_for_training_or_selection": false
+}

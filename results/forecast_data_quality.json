@@ -1,0 +1,17 @@
+{
+  "n_filas_leidas": 90,
+  "n_descartados": 0,
+  "n_duplicados": 0,
+  "fechas_duplicadas": [],
+  "n_validos": 90,
+  "n_fuera_de_90_dias": 0,
+  "dias_interpolados": 0,
+  "huecos": [],
+  "fecha_inicio": "2026-08-11",
+  "fecha_fin": "2026-11-08",
+  "columnas": {
+    "fecha": "fecha",
+    "consumo": "consumo_kwh",
+    "archivo": "/Users/felipezapata/Desktop/EnerTrack-Examen-Final/data/consumo/historico_90_dias.csv"
+  }
+}

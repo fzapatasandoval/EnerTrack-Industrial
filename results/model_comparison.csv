@@ -1,0 +1,4 @@
+model,test_accuracy,test_macro_f1,test_images,mean_predicted_class_probability,inference_ms_per_image,val_macro_f1,val_accuracy,best_epoch,epochs_ran,pretrained_weights,trainable_parameters,notes
+estadisticos_textura_logreg,0.9777777777777777,0.9776805736325976,270,0.9746910381565314,1.7375992216532015,0.9703996337484369,0.9702602230483272,,,,168,LogisticRegression C=10.0 elegido con macro F1 de validación
+mobilenet_v3_small,0.9925925925925926,0.9925889328063242,270,0.9302430748939514,9.93294567042203,0.9925925925925926,0.9925650557620818,5,7,MobileNet_V3_Small_Weights.IMAGENET1K_V1,6150,Backbone ImageNet congelado; solo se entrenó la capa lineal final
+resnet18,0.9703703703703703,0.9703239261506601,270,0.8670775294303894,9.300313729585872,0.9702358238655879,0.9702602230483272,4,6,ResNet18_Weights.IMAGENET1K_V1,3078,Backbone ImageNet congelado; solo se entrenó la capa lineal final

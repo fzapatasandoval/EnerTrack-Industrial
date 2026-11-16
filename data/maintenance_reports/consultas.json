@@ -1,0 +1,85 @@
+{
+  "criterio": "Cada identificador relevante se eligió al redactar el corpus, porque el reporte describe el mismo incidente o su seguimiento directo. No se usó la salida de ningún modelo para armar esta lista.",
+  "consultas": [
+    {
+      "id": "Q01",
+      "texto": "¿Qué pasó con el recalentamiento del motor de la extrusora de lámina?",
+      "relevantes": ["SIM-001", "SIM-002"]
+    },
+    {
+      "id": "Q02",
+      "texto": "Busco el informe de vibración alta en la sopladora S-3",
+      "relevantes": ["SIM-004", "SIM-005"]
+    },
+    {
+      "id": "Q03",
+      "texto": "¿Por qué aumentó el consumo eléctrico del compresor de aire?",
+      "relevantes": ["SIM-007", "SIM-008"]
+    },
+    {
+      "id": "Q04",
+      "texto": "Necesito el mantenimiento preventivo del husillo de extrusión",
+      "relevantes": ["SIM-010"]
+    },
+    {
+      "id": "Q05",
+      "texto": "El aceite hidráulico de la prensa de tapas se calentó",
+      "relevantes": ["SIM-013", "SIM-014"]
+    },
+    {
+      "id": "Q06",
+      "texto": "Falla de rodamiento en el motor de la extrusora E-1",
+      "relevantes": ["SIM-015", "SIM-016"]
+    },
+    {
+      "id": "Q07",
+      "texto": "Pico de demanda eléctrica de madrugada por los molinos",
+      "relevantes": ["SIM-017", "SIM-018"]
+    },
+    {
+      "id": "Q08",
+      "texto": "Desbalance del ventilador de la torre de enfriamiento",
+      "relevantes": ["SIM-019", "SIM-020"]
+    },
+    {
+      "id": "Q09",
+      "texto": "Ruta de engrase de los motores de mezclado",
+      "relevantes": ["SIM-021", "SIM-022"]
+    },
+    {
+      "id": "Q10",
+      "texto": "Alarma de temperatura del molde de botellas de litro y medio",
+      "relevantes": ["SIM-023", "SIM-024"]
+    },
+    {
+      "id": "Q11",
+      "texto": "Botellas deformadas por el agua de proceso caliente",
+      "relevantes": ["SIM-025", "SIM-026"]
+    },
+    {
+      "id": "Q12",
+      "texto": "Punto caliente en el tablero de inyección detectado por termografía",
+      "relevantes": ["SIM-027", "SIM-028"]
+    },
+    {
+      "id": "Q13",
+      "texto": "Partículas metálicas en el aceite del reductor de la extrusora E-4",
+      "relevantes": ["SIM-029", "SIM-030"]
+    },
+    {
+      "id": "Q14",
+      "texto": "Consumo excesivo de los secadores de PET por la regeneración",
+      "relevantes": ["SIM-031", "SIM-032"]
+    },
+    {
+      "id": "Q15",
+      "texto": "Sobrecorriente en el molino de scrap",
+      "relevantes": ["SIM-035", "SIM-036"]
+    },
+    {
+      "id": "Q16",
+      "texto": "El chiller gasta de más porque el condensador está sucio",
+      "relevantes": ["SIM-040", "SIM-041"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "device": "mps",
+  "ventana_entrada_dias": 14,
+  "justificacion_ventana": "La estacionalidad original es semanal. Catorce días cubren dos ciclos y permiten comparar la semana previa.",
+  "validacion_dias": 14,
+  "prueba_dias": 21,
+  "train_end_index": 55,
+  "test_start_index": 69,
+  "fecha_inicio_prueba": "2026-10-19",
+  "fecha_fin_prueba": "2026-11-08",
+  "evaluacion": "rolling_one_step",
+  "lstm": {
+    "capas": 1,
+    "hidden": 16,
+    "max_epochs": 50,
+    "patience": 8,
+    "learning_rate": 0.001,
+    "best_epoch": 1,
+    "epochs_ran": 9,
+    "val_mae": 465.2532653808594,
+    "normalizador": "media y desviación del tramo de entrenamiento"
+  },
+  "holt_winters": {
+    "alpha": 0.1,
+    "beta": 0.1,
+    "gamma": 0.3,
+    "estacionalidad_dias": 7,
+    "seleccion": "SSE de un paso desde el día 14 hasta el día anterior a la prueba, con la grilla del nodo original",
+    "equivalencia": "Misma inicialización, mismas ecuaciones aditivas y misma grilla que el nodo Python de n8n. La LSTM reserva 14 días de validación que Holt-Winters sí incluye en su SSE, porque el nodo original no separa validación."
+  },
+  "modelo_recomendado": "holt_winters"
+}

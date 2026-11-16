@@ -1,0 +1,248 @@
+{
+  "corpus_id": "enertrack-mantenimiento-sintetico-v1",
+  "caracter": "simulado",
+  "fuente": "Redactado para el prototipo académico EnerTrack. Describe una planta ficticia de envases plásticos. No es un registro real de una empresa ni de una planta en operación.",
+  "planta": "Planta ficticia de envases plásticos, solo como escenario académico.",
+  "reportes": [
+    {
+      "id": "SIM-001",
+      "cita": "SIM-001",
+      "texto": "El motor M-12 de la extrusora de lámina alcanzó 92 °C en el bobinado durante el turno mañana. La línea se detuvo y el ventilador de carcasa giraba más lento de lo habitual. No se cambió el motor."
+    },
+    {
+      "id": "SIM-002",
+      "cita": "SIM-002",
+      "texto": "Seguimiento del motor M-12 de la extrusora de lámina. Tras 40 minutos de marcha el termistor marcó 88 °C. Se limpió el filtro del aire de refrigeración de la carcasa y la temperatura bajó a 74 °C."
+    },
+    {
+      "id": "SIM-003",
+      "cita": "SIM-003",
+      "texto": "El motor de la etiquetadora presentó un zumbido leve. La temperatura de carcasa se mantuvo en 61 °C, dentro de lo habitual, y la producción de etiquetas no se detuvo."
+    },
+    {
+      "id": "SIM-004",
+      "cita": "SIM-004",
+      "texto": "En la sopladora S-3 la vibración RMS llegó a 11.4 mm/s en el apoyo del motor. El ventilador que enfría el molde se veía desbalanceado. Se dejó la máquina en observación y se programó el balanceo."
+    },
+    {
+      "id": "SIM-005",
+      "cita": "SIM-005",
+      "texto": "Después del balanceo del ventilador de molde, la vibración de la sopladora S-3 quedó en 3.1 mm/s. El apoyo del motor dejó de transmitir golpes a la bancada."
+    },
+    {
+      "id": "SIM-006",
+      "cita": "SIM-006",
+      "texto": "La cinta transportadora de botellas vacías midió 2.2 mm/s de vibración en el rodillo motriz. El valor está dentro de lo habitual y no se abrió una orden correctiva."
+    },
+    {
+      "id": "SIM-007",
+      "cita": "SIM-007",
+      "texto": "El compresor de aire C-1 registró 1840 kWh en el turno noche, un 22 por ciento por encima de su línea base. La presión de red se mantenía, pero el equipo no llegaba a descargar."
+    },
+    {
+      "id": "SIM-008",
+      "cita": "SIM-008",
+      "texto": "Se encontró una fuga en el manifold de aire que alimenta la sopladora. Esa pérdida explica el gasto eléctrico elevado del compresor C-1. Al cerrar la fuga, el compresor volvió a ciclar con descargas normales."
+    },
+    {
+      "id": "SIM-009",
+      "cita": "SIM-009",
+      "texto": "Se sustituyeron luminarias de la nave de empaque por lámparas LED. El ahorro estimado es de 40 kWh por semana y no involucra compresores ni motores de proceso."
+    },
+    {
+      "id": "SIM-010",
+      "cita": "SIM-010",
+      "texto": "Mantenimiento preventivo mensual del husillo de la extrusora E-2. Se midió el desgaste del filete, se engrasaron los rodamientos de apoyo y se revisó la alineación del conjunto según el plan."
+    },
+    {
+      "id": "SIM-011",
+      "cita": "SIM-011",
+      "texto": "Checklist preventivo de la bomba de vacío de la termoformadora. Se lubricó el mecanismo y se apretaron las abrazaderas de las mangueras. El husillo de extrusión no formó parte de esta orden."
+    },
+    {
+      "id": "SIM-012",
+      "cita": "SIM-012",
+      "texto": "Orden correctiva por rotura de la correa del desbarbador. La máquina quedó parada veinte minutos hasta colocar la correa nueva. No era una tarea del plan preventivo."
+    },
+    {
+      "id": "SIM-013",
+      "cita": "SIM-013",
+      "texto": "El aceite hidráulico de la prensa de tapas P-4 llegó a 71 °C. El intercambiador de calor del circuito estaba sucio y el ventilador del enfriador funcionaba. Se detuvo la prensa para evitar degradar el aceite."
+    },
+    {
+      "id": "SIM-014",
+      "cita": "SIM-014",
+      "texto": "Tras limpiar el intercambiador, el aceite hidráulico de la prensa de tapas P-4 se estabilizó en 54 °C. La prensa volvió a producir tapas sin alarma térmica."
+    },
+    {
+      "id": "SIM-015",
+      "cita": "SIM-015",
+      "texto": "El rodamiento del lado acople del motor de la extrusora E-1 tenía juego axial. En la grasa aparecieron virutas metálicas. Se recomendó cambiar el rodamiento antes del próximo turno."
+    },
+    {
+      "id": "SIM-016",
+      "cita": "SIM-016",
+      "texto": "Se reemplazó el rodamiento 6312 del motor de la extrusora E-1 y se realineó el acople. La grasa nueva salió limpia en la purga y el motor arrancó sin ruido de golpeteo."
+    },
+    {
+      "id": "SIM-017",
+      "cita": "SIM-017",
+      "texto": "A las 02:10 hubo un pico de demanda eléctrica. Arrancaron al mismo tiempo los tres molinos de scrap y el medidor de la acometida superó el límite contratado durante cuatro minutos."
+    },
+    {
+      "id": "SIM-018",
+      "cita": "SIM-018",
+      "texto": "Se escalonó el arranque de los molinos de scrap con dos minutos de separación. En la noche siguiente no se repitió el pico de demanda de las 02:00."
+    },
+    {
+      "id": "SIM-019",
+      "cita": "SIM-019",
+      "texto": "El ventilador de la torre de enfriamiento mostró desbalance. La vibración axial del rodete era alta y se veía oscilación en la chimenea de descarga. No corresponde al ventilador de una sopladora."
+    },
+    {
+      "id": "SIM-020",
+      "cita": "SIM-020",
+      "texto": "Se colocaron masas de balanceo en el rodete del ventilador de la torre de enfriamiento. La vibración axial bajó y la torre recuperó el caudal de aire habitual."
+    },
+    {
+      "id": "SIM-021",
+      "cita": "SIM-021",
+      "texto": "Ruta de lubricación preventiva de los motores que mueven los agitadores de tinta y aditivos. Se aplicó grasa en los rodamientos según el intervalo y no había fugas en los retenes."
+    },
+    {
+      "id": "SIM-022",
+      "cita": "SIM-022",
+      "texto": "El rodamiento del motor del mezclador de resina estaba sin grasa. Se purgó el conducto tapado y se completó la ruta de engrase de los agitadores. El motor dejó de chirriar."
+    },
+    {
+      "id": "SIM-023",
+      "cita": "SIM-023",
+      "texto": "Alarma de temperatura en el molde de botellas de 1.5 L. La zona 2 marcó 148 °C frente a una consigna de 125 °C. Se pausó el ciclo de soplado de ese formato."
+    },
+    {
+      "id": "SIM-024",
+      "cita": "SIM-024",
+      "texto": "La resistencia de la zona 2 del molde de botellas de 1.5 L estaba en cortocircuito. Se sustituyó el cartucho y la zona volvió a regular en 125 °C."
+    },
+    {
+      "id": "SIM-025",
+      "cita": "SIM-025",
+      "texto": "La temperatura del agua de proceso subió a 29 °C. Las botellas salían con alabeo en el hombro y se apartó el lote. El molde no tenía alarma de resistencia."
+    },
+    {
+      "id": "SIM-026",
+      "cita": "SIM-026",
+      "texto": "Se purgó el intercambiador de calor del circuito de agua de moldes. El agua de proceso volvió a 18 °C y desapareció el alabeo en las botellas del formato en curso."
+    },
+    {
+      "id": "SIM-027",
+      "cita": "SIM-027",
+      "texto": "Termografía preventiva del tablero de la línea de inyección. Había un punto caliente en el contactor del motor M-4, con diferencia clara respecto de las fases vecinas."
+    },
+    {
+      "id": "SIM-028",
+      "cita": "SIM-028",
+      "texto": "Se ajustaron los bornes del contactor del motor M-4 después de la termografía del tablero de inyección. Una nueva imagen térmica mostró las tres fases parejas."
+    },
+    {
+      "id": "SIM-029",
+      "cita": "SIM-029",
+      "texto": "El reductor de la extrusora E-4 vibraba en el eje de salida y el aceite de la caja marcaba 78 °C. Se tomó una muestra de aceite para el laboratorio."
+    },
+    {
+      "id": "SIM-030",
+      "cita": "SIM-030",
+      "texto": "El análisis del aceite del reductor de la extrusora E-4 informó partículas de hierro elevadas. Se programó una inspección de engranajes y no se mezcló este aceite con el de otras cajas."
+    },
+    {
+      "id": "SIM-031",
+      "cita": "SIM-031",
+      "texto": "Los secadores deshumidificadores de PET consumieron de más durante toda la semana. El set point de regeneración había quedado en 180 °C en lugar del valor de proceso."
+    },
+    {
+      "id": "SIM-032",
+      "cita": "SIM-032",
+      "texto": "Se corrigió el set point de regeneración de los secadores de PET a 140 °C. El consumo eléctrico de esos equipos bajó el mismo día, sin intervenir el chiller."
+    },
+    {
+      "id": "SIM-033",
+      "cita": "SIM-033",
+      "texto": "Mantenimiento preventivo trimestral del compresor C-2. Se cambiaron los filtros de aire y de aceite y se revisaron las válvulas de aspiración. El consumo del turno no estaba fuera de línea base."
+    },
+    {
+      "id": "SIM-034",
+      "cita": "SIM-034",
+      "texto": "Se revisó el compresor pequeño de la cafetería del edificio de oficinas. Es un equipo de servicios, no alimenta la red de aire de soplado ni de extrusión."
+    },
+    {
+      "id": "SIM-035",
+      "cita": "SIM-035",
+      "texto": "El motor del molino de scrap M-9 disparó por sobrecorriente. La pinza midió 46 A frente a un nominal de 32 A. El arranque no coincidió con los otros molinos."
+    },
+    {
+      "id": "SIM-036",
+      "cita": "SIM-036",
+      "texto": "Se retiró un trozo de purga atascado en el molino de scrap M-9. Después de vaciar la cámara, la corriente del motor volvió a 30 A y no volvió a disparar."
+    },
+    {
+      "id": "SIM-037",
+      "cita": "SIM-037",
+      "texto": "En el barril de la extrusora, la zona 3 oscilaba entre 210 y 245 °C. El perfil térmico del plástico era inestable. La temperatura del motor de accionamiento permanecía normal."
+    },
+    {
+      "id": "SIM-038",
+      "cita": "SIM-038",
+      "texto": "Ruta predictiva mensual de vibración en los motores de las bombas de agua de moldes. Todas las lecturas quedaron por debajo de 4.5 mm/s y no se generaron correctivos."
+    },
+    {
+      "id": "SIM-039",
+      "cita": "SIM-039",
+      "texto": "La bomba de agua de moldes B-2 trabajaba con cavitación. El ruido era seco y la vibración llegó a 7.8 mm/s. Se revisó el filtro de succión, distinto de la ruta en la que todas las bombas estaban bien."
+    },
+    {
+      "id": "SIM-040",
+      "cita": "SIM-040",
+      "texto": "El chiller de agua helada mostró un consumo de 960 kWh por día. El condensador estaba sucio y la presión de descarga era alta. No es el compresor de aire de la sopladora."
+    },
+    {
+      "id": "SIM-041",
+      "cita": "SIM-041",
+      "texto": "Se limpió el condensador del chiller de agua helada. El consumo bajó a 780 kWh por día y la presión de descarga volvió al rango de operación."
+    },
+    {
+      "id": "SIM-042",
+      "cita": "SIM-042",
+      "texto": "Cambio de aceite preventivo del reductor de la cinta de acumulación. El aceite drenado tenía el color esperado y no había partículas visibles. La orden estaba en el plan trimestral."
+    },
+    {
+      "id": "SIM-043",
+      "cita": "SIM-043",
+      "texto": "Fuga de aceite en el reductor de la impresora de mangas. Se colocó un retenedor nuevo en una orden correctiva. No forma parte del cambio preventivo de la cinta de acumulación."
+    },
+    {
+      "id": "SIM-044",
+      "cita": "SIM-044",
+      "texto": "El motor de la sopladora S-1 estaba desalineado respecto del compresor de aire de soplado del propio equipo. El rodamiento del motor llegó a 82 °C y la vibración a 8.6 mm/s."
+    },
+    {
+      "id": "SIM-045",
+      "cita": "SIM-045",
+      "texto": "Se realineó el motor de la sopladora S-1 con comparador de carátula. El rodamiento bajó a 64 °C y la vibración quedó en 3.4 mm/s."
+    },
+    {
+      "id": "SIM-046",
+      "cita": "SIM-046",
+      "texto": "En el turno noche se ejecutó el preventivo de limpieza de filtros de aire de los motores de extrusión. La parada de cada motor fue breve y no hubo alarma de temperatura."
+    },
+    {
+      "id": "SIM-047",
+      "cita": "SIM-047",
+      "texto": "El consumo eléctrico del turno noche quedó dentro de la línea base. No hubo picos de demanda ni arranques simultáneos de molinos."
+    },
+    {
+      "id": "SIM-048",
+      "cita": "SIM-048",
+      "texto": "La nave llegó a 34 °C porque fallaron dos extractores de techo. Los motores de extrusión subieron unos 6 °C respecto de su media, sin alcanzar alarma ni detener la extrusora de lámina."
+    }
+  ]
+}
